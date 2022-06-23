@@ -1,9 +1,12 @@
+import Pessoa.Pessoa;
 import banco.ContaCorrente;
 import banco.ContaPoupanca;
 
 public class Principal {
 
     public static void main(String[] args) {
+
+        //Exemplos das questoes 1 e 2
         ContaCorrente contCor = new ContaCorrente();
         contCor.setNumero("0012");
         contCor.setTitular("Anderson");
@@ -20,6 +23,18 @@ public class Principal {
         System.out.println(contPoup);
         System.out.println(contPoup.rendimento());
         System.out.println(contPoup.calcularImposto());
+
+
+        //Exemplos da questao 3
+        Pessoa pessoa = new Pessoa();
+        pessoa.setNome("Anderson");
+        pessoa.setEndereco("Rua 17 Jardim America - São Luis-MA");
+        pessoa.setTelefone("81604917");
+
+        System.out.println(pessoa);
+
+
+
     }
 
 }
