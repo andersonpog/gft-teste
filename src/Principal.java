@@ -44,7 +44,7 @@ public class Principal {
         System.out.println();
 
 
-        //Exemplos da quarta questao
+        //Exemplos da questao 4
         Scanner entrada = new Scanner(System.in);
 
         List<CarroPasseio> carros = new ArrayList<>();
