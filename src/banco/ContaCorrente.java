@@ -1,6 +1,6 @@
 package banco;
 
-public class ContaCorrente extends Conta{
+public class ContaCorrente extends Conta implements Imposto{
 
     public ContaCorrente() {
     }
@@ -12,5 +12,10 @@ public class ContaCorrente extends Conta{
     @Override
     public Double rendimento() {
         return getSaldo()*0.03;
+    }
+
+    @Override
+    public Double calcularImposto() {
+        return rendimento()*0.25;
     }
 }
