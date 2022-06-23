@@ -24,6 +24,7 @@ public class Principal {
         System.out.println("Rendimento da conta corrente: "+contCor.rendimento());
         System.out.println("Imposto da conta corrente: "+contCor.calcularImposto());
 
+        System.out.println();
 
         System.out.println(contPoup);
         System.out.println("Rendimento da conta poupanca: "+contPoup.rendimento());
@@ -40,12 +41,15 @@ public class Principal {
 
         System.out.println(pessoa);
 
+        System.out.println();
+
 
         //Exemplos da quarta questao
         Scanner entrada = new Scanner(System.in);
 
         List<CarroPasseio> carros = new ArrayList<>();
 
+        //Lendo os dados do usuario e salvando em uma lista
         for(int i=0;i<5;i++){
 
             System.out.println("Digite o modelo do carro:");
@@ -57,7 +61,9 @@ public class Principal {
 
             carros.add(new CarroPasseio(modelo,marca,combustivel));
         }
+        System.out.println();
 
+        //Calculando os tipos de combustivel informados
         int gasolina =0;
         int diesel = 0;
         for (CarroPasseio carro : carros){
@@ -68,6 +74,8 @@ public class Principal {
             if(carro.getCombustivel().equalsIgnoreCase("diesel"))
                 diesel++;
         }
+
+        System.out.println();
 
         System.out.println("Foram informados "+ gasolina + " carros a gasolina.");
         System.out.println("Foram informados "+ diesel + " carros a diesel.");

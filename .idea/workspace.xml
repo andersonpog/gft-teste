@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0931dc9-2752-4612-accf-7ba7bfed1c59" name="Changes" comment="Ajuste pacotes">
-      <change afterPath="$PROJECT_DIR$/src/carro/CarroPasseio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b0931dc9-2752-4612-accf-7ba7bfed1c59" name="Changes" comment="Ultima questao">
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/carro/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carro/Carro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656011304613</updated>
-      <workItem from="1656011307584" duration="3971000" />
+      <workItem from="1656011307584" duration="4278000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit">
       <created>1656011431284</created>
@@ -98,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656013546174</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ultima questao">
+      <created>1656015344887</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656015344887</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +125,7 @@
     <MESSAGE value="Segunda questao" />
     <MESSAGE value="Classe carro" />
     <MESSAGE value="Ajuste pacotes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste pacotes" />
+    <MESSAGE value="Ultima questao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ultima questao" />
   </component>
 </project>
