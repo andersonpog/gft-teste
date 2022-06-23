@@ -1,4 +1,4 @@
-import Pessoa.Pessoa;
+import pessoa.Pessoa;
 import banco.ContaCorrente;
 import banco.ContaPoupanca;
 
