@@ -1,6 +1,11 @@
+import carro.CarroPasseio;
 import pessoa.Pessoa;
 import banco.ContaCorrente;
 import banco.ContaPoupanca;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class Principal {
 
@@ -16,13 +21,15 @@ public class Principal {
 
 
         System.out.println(contCor);
-        System.out.println(contCor.rendimento());
-        System.out.println(contCor.calcularImposto());
+        System.out.println("Rendimento da conta corrente: "+contCor.rendimento());
+        System.out.println("Imposto da conta corrente: "+contCor.calcularImposto());
 
 
         System.out.println(contPoup);
-        System.out.println(contPoup.rendimento());
-        System.out.println(contPoup.calcularImposto());
+        System.out.println("Rendimento da conta poupanca: "+contPoup.rendimento());
+        System.out.println("Imposto da conta poupanca: "+contPoup.calcularImposto());
+
+        System.out.println();
 
 
         //Exemplos da questao 3
@@ -34,6 +41,36 @@ public class Principal {
         System.out.println(pessoa);
 
 
+        //Exemplos da quarta questao
+        Scanner entrada = new Scanner(System.in);
+
+        List<CarroPasseio> carros = new ArrayList<>();
+
+        for(int i=0;i<5;i++){
+
+            System.out.println("Digite o modelo do carro:");
+            String modelo = entrada.nextLine();
+            System.out.println("Digite a marca do carro:");
+            String marca = entrada.nextLine();
+            System.out.println("Digite o tipo de combustivel do carro:");
+            String combustivel = entrada.nextLine();
+
+            carros.add(new CarroPasseio(modelo,marca,combustivel));
+        }
+
+        int gasolina =0;
+        int diesel = 0;
+        for (CarroPasseio carro : carros){
+            System.out.println(carro);
+            if(carro.getCombustivel().equalsIgnoreCase("gasolina"))
+                gasolina++;
+
+            if(carro.getCombustivel().equalsIgnoreCase("diesel"))
+                diesel++;
+        }
+
+        System.out.println("Foram informados "+ gasolina + " carros a gasolina.");
+        System.out.println("Foram informados "+ diesel + " carros a diesel.");
 
     }
 

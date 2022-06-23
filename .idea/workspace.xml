@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0931dc9-2752-4612-accf-7ba7bfed1c59" name="Changes" comment="Segunda questao">
-      <change afterPath="$PROJECT_DIR$/src/Carro/Carro.java" afterDir="false" />
+    <list default="true" id="b0931dc9-2752-4612-accf-7ba7bfed1c59" name="Changes" comment="Ajuste pacotes">
+      <change afterPath="$PROJECT_DIR$/src/carro/CarroPasseio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pessoa/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoa/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carro/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carro/Carro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656011304613</updated>
-      <workItem from="1656011307584" duration="2113000" />
+      <workItem from="1656011307584" duration="3971000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit">
       <created>1656011431284</created>
@@ -84,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656012898176</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Classe carro">
+      <created>1656013467134</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656013467134</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ajuste pacotes">
+      <created>1656013546174</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656013546174</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +119,8 @@
     <MESSAGE value="Primeiro commit" />
     <MESSAGE value="Primeira questao" />
     <MESSAGE value="Segunda questao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segunda questao" />
+    <MESSAGE value="Classe carro" />
+    <MESSAGE value="Ajuste pacotes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste pacotes" />
   </component>
 </project>
