@@ -1,4 +1,51 @@
 package banco;
 
-public class Conta {
+public abstract class Conta {
+    private String numero;
+    private String titular;
+    private Double saldo;
+
+    public Conta() {
+    }
+
+    public Conta(String numero, String titular, Double saldo) {
+        this.numero = numero;
+        this.titular = titular;
+        this.saldo = saldo;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+
+    public String getTitular() {
+        return titular;
+    }
+
+    public void setTitular(String titular) {
+        this.titular = titular;
+    }
+
+    public Double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(Double saldo) {
+        this.saldo = saldo;
+    }
+
+    public abstract Double rendimento();
+
+    @Override
+    public String toString() {
+        return this.getClass().getSimpleName()+"{" +
+                "numero='" + numero + '\'' +
+                ", titular='" + titular + '\'' +
+                ", saldo=" + saldo +
+                '}';
+    }
 }
